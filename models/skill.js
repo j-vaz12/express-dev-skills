@@ -1,7 +1,7 @@
 const skills = [
-    {skill: 'html', techstack: 'frontend'},
-    {skill: 'js', techstack: 'frontend'},
-    {skill: 'node.js', techstack: 'backend'},
+    {id: 123456, skill: 'HTML', techstack: 'FrontEnd'},
+    {id: 134535, skill: 'JS', techstack: 'FrontEnd'},
+    {id: 145631, skill: 'NODE.JS', techstack: 'BackEnd'},
 ];
 
 module.exports = {

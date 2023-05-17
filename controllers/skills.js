@@ -9,7 +9,12 @@ module.exports = {
 
 function index(req, res) {
     res.render('skills/index', {
-      skill: Skill.getAll()
+      skills: Skill.getAll()
     });
   }
 
+function show(req, res) {
+    res.render('skills/show' {
+        
+    });
+    }
