@@ -10,7 +10,7 @@ module.exports = {
 
 
 function newSkill(req, res) {
-    res.render('skills/new', { title: 'New Todo'});
+    res.render('skills/new', { title: 'New Skills'});
 }
 
 function show(req, res) {
